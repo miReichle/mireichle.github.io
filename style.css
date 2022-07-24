@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+font-face {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.marquee {
+    height: 15wv;
+    widht: 15wv;
+    position: relative;
+    -webkit-animation: right 4s linear;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes right {
+    0%   {left: -30%;}
+    100% {left: 100%;}
+}
+
+.container-fluid{
+    overflow: clip;
+}
+
+.clef{
+    weight:  15vw;
+    height: 15vh;
+}
+
+a:link {
+    color: #3F5673;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: #3F5673;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: IBM Plex Sans, sans-serif, wght@1,700;
+    line-height: 1;
+    font-size: 6vw;
+    padding-top: 2vw;
+    color: #8FBCBB;
+    margin-left: 3rem;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+
+h2 {
+    font-family: IBM Plex Sans, sans-serif, wght@1,700;
+    color: #3F5673;
+}
+
+
+h3 {
+    color: #3F5673;
+    font-size: 2.5vw;
+    margin-left: 3rem;
+    line-height: 1;
+
+}
+@media (max-width: 576px) {
+    h3 {
+        font-size: 20px;
+    }
+}
+
+
+h4 {
+    color: #3F5673;
+    font-size: 1.6vw;
+    margin-left: 3rem;
+    line-height: 1;
+}
+@media (max-width: 576px) {
+    h4 {
+        font-size: 15px;
+    }
+}
+
+
+p {
+    font-family: IBM Plex Sans, sans-serif, wght@1,600;
+    color: #3F5673;
+    margin-right: 1rem;
+}
+
+.textes{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.end {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 0.8vw;
+    color: #3F5673;
+    margin-top: 4vw;
+
+}
+
+
+
+.vertical-menu {
+    font-family: IBM Plex Sans, sans-serif, wght@1,500;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 3rem;
+}
+
+.vertical-menu a {
+    background-color: white;
+    color: #3F5673;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.vertical-menu a:hover {
+    color: #8FBCBB;
+}
+
+.col-sm-8 {
+    background-color: #8FBCBB;
+}
+
+
+table {
+    width: 99%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+td {
+    border: 0px solid;
+    border-color: #3F5673;
+    padding: 10px;
+    color: #3F5673;
+}
+
+.head {
+    background-color: #3F5673;
+    color: #8FBCBB;
+}
+
+tr {
+    border-bottom: 1px solid #3F5673;
+    border-top: 1px solid #3F5673;
+    border-collapse: collapse;
+}
+
+.botspace {
+    margin-bottom: 4rem;
+}
