@@ -152,3 +152,8 @@ tr {
 .botspace {
     margin-bottom: 4rem;
 }
+
+.text_highlight {
+    color: #3F5673;
+    font-style: italic;
+}
