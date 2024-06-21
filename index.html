@@ -3,257 +3,259 @@
 
 <head>
     <title>Michael Reichle</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="icon" type="image/png" href="cadenas.png">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <style>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
-    </style>
+    <link rel="stylesheet" href="https://unpkg.com/latex.css/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 
-<body>
-<link rel="stylesheet" type="text/css" href="style.css">
+<body id="top">
 
-<div class="container-fluid">
-    <div class="row">
-    <div class="col-sm-4">
-    <div class="sticky-top">	
-    <h1>Michael Reichle</h1>
-    <h3>postdoc</h3>
-    <h4>michael.reichle@inf.ethz.ch</h4>
-
-    <div class="vertical-menu" role="navigation">
-    <a href="#about" class="active">ABOUT</a>
-    <a href="#publications">PUBLICATIONS</a>
-    <a href="#presentations">PRESENTATIONS</a>
-    <a href="#teaching">TEACHING</a>
-    <a href="#supervision">SUPERVISION</a>
-    </div> 
-    </div>
-</div>
-
-<div class="col-sm-8">
-
-<div class="textes">
-<div id="about" class="botspace">
-    <h2>about</h2>
-    <p>
-    I am a Postdoc at ETH Zürich under the guidance of <a href="https://people.inf.ethz.ch/dhofheinz/">Dennis Hofheinz</a>.
-    Previously, I was a PhD student at École Normale Supérieure in Paris under the supervision of <a href="https://www.di.ens.fr/brice.minaud/">Brice Minaud</a> and <a href="https://www.di.ens.fr/~mabdalla/">Michel Abdalla</a>.
-    I wrote my master and bachelor thesis under the supervision of <a href="https://geoffroycouteau.github.io/">Geoffroy Couteau</a>.<br>
-    
-    The topic of my PhD was Searchable Encryption with a focus on memory-efficient constructions.
-    My thesis can be found <a href="thesis.pdf">here</a>.<br>
-
-    I am interested in cryptography at large, particularly in efficient constructions of encryption or signature variants.
+<header>
+    <h1><span class="latex">Michael Reichle</h1>
+    <p class="author">
+    Postdoc, ETH Zurich <br />
+    michael.reichle@inf.ethz.ch <br />
     </p>
-</div>
+</header>
 
+
+<div class="abstract">
+<h2>Abstract</h2>
+</div>
+<p align="left"> 
+I am a Postdoc at ETH Zurich under the guidance of <a href="https://people.inf.ethz.ch/dhofheinz/">Dennis Hofheinz</a>.
+Previously, I was a PhD student at École Normale Supérieure in Paris under the supervision of <a href="https://www.di.ens.fr/brice.minaud/">Brice Minaud</a> and <a href="https://www.di.ens.fr/~mabdalla/">Michel Abdalla</a>.
+I wrote my master and bachelor thesis under the supervision of <a href="https://geoffroycouteau.github.io/">Geoffroy Couteau</a>.<br>
+
+The topic of my PhD was Searchable Encryption with a focus on memory-efficient constructions.
+My thesis can be found <a href="thesis.pdf.">here</a>.
+I am interested in cryptography at large, particularly in efficient constructions of encryption or signature variants.
+</p>
+
+<nav role="navigation" class="toc">
+<h2>Contents</h2>
+<ol>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#presentations">Presentations</a>
+    <li><a href="#teaching">Teaching</a>
+    <li><a href="#supervision">Supervision</a>
+</ol>
+</nav>
+
+<main>
+<article>
+    
 <div id="publications" class="botspace">
-    <h2>publications</h2>
-    <p>An up-to-date list of my publications can be found on <a href="https://dblp.org/pid/235/4706.html">dblp</a>. </p>
-    <table>
-        <tr>
-            <td class="head">conference</td>
-            <td class="head">article</td>
-            <td class="head">link</td>
-        </tr>
-        <tr>
-            <td>Crypto<br> 2024</td>
-            <td> <b>Adaptively Secure 5 Round Threshold Signatures from MLWE/MSIS and DL with Rewinding.</b>
-                Shuichi Katsumata, Michael Reichle, Kaoru Takemure</td>
-            <td>tbd</td>  
-        </tr>
-        <tr>
-            <td>Crypto<br> 2024</td>
-            <td> <b>Pairing-Free Blind Signatures from Standard Assumptions in the ROM.</b>
-                Julia Kastner, Ky Nguyen, Michael Reichle </td>
-            <td><a href="https://eprint.iacr.org/2023/1810">eprint</a></td>  
-        </tr>
-        <tr>
-            <td>PKC<br> 2024</td>
-            <td> <b>Breaking Parallel ROS: Implication for Isogeny and Lattice-based Blind Signatures.</b>
-                Shuichi Katsumata, Yi-Fu Lai, Michael Reichle </td>
-            <td><a href="https://eprint.iacr.org/2023/1603">eprint</a></td>  
-        </tr>
-        <tr>
-            <td>Asiacrypt<br> 2023</td>
-            <td> <b>Hermes: I/O-Efficient Forward-Secure Searchable Symmetric Encryption.</b>
-                Brice Minaud, Michael Reichle </td>
-            <td><a href="https://eprint.iacr.org/2023/166">eprint</a></td>  
-        </tr>
-        <tr>
-            <td>Asiacrypt<br> 2023</td>
-            <td> <b>Practical Round-Optimal Blind Signatures in the ROM from Standard Assumptions.</b>
-                Shuichi Katsumata, Michael Reichle, Yusuke Sakai </td>
-            <td><a href="https://eprint.iacr.org/2023/1447">eprint</a></td>  
-        </tr>
-        <tr>
-            <td>CCS<br> 2022</td>
-            <td> <b>Sharp: Short Relaxed Range Proofs.</b>
-                Geoffroy Couteau, Dahmun Goudarzi, Michael Klooß, Michael Reichle </td>
-            <td><a href="https://eprint.iacr.org/2022/1153">eprint</a></td>  
-        </tr>
-        <tr>
-            <td>CRYPTO<br> 2022</td>
-            <td> <b>Dynamic Local Searchable Symmetric Encryption.</b>
-                Brice Minaud, Michael Reichle
-                <p class="text_highlight">  Paper invited to the Journal of Cryptology</p>  </td>
-            <td><a href="https://eprint.iacr.org/2022/1013">eprint</a></td>
-        </tr>
-        <tr>
-            <td>CRYPTO<br> 2021</td>
-            <td> <b>SSE and SSD: Page-Efficient Searchable Symmetric Encryption.</b>
-                Angèle Bossuat, Raphael Bost, Pierre-Alain Fouque, Brice Minaud, Michael Reichle </td>
-            <td><a href="https://eprint.iacr.org/2021/716">eprint</a></td>
-        </tr>
-        <tr>
-            <td>EUROCRYPT<br> 2021</td>
-            <td> <b>Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments. </b>
-                Geoffroy Couteau, Michael Klooß, Huang Lin, Michael Reichle</td>
-            <td><a href="https://eprint.iacr.org/2021/540">eprint</a></td>
-        </tr>
-        <tr>
-            <td>PKC<br> 2019</td>
-            <td> <b>Non-interactive Keyed-Verification Anonymous Credentials. </b>
-                Geoffroy Couteau, Michael Reichle</td>
-            <td><a href="https://eprint.iacr.org/2019/117">eprint</a></td>
-        </tr>
-    </table>
-
+<h2>Publications</h2>
+<p margin-bottom="10em">
+    An up-to-date list of my publications can be found on <a href="https://dblp.org/pid/235/4706.html">dblp</a>.
+</p>
+<table>
+    <tr>
+        <td>Crypto<br> 2024</td>
+        <td> <b>Adaptively Secure 5 Round Threshold Signatures from MLWE/MSIS and DL with Rewinding.</b>
+            Shuichi Katsumata, Michael Reichle, Kaoru Takemure.
+        </td>
+    </tr>
+    <tr>
+        <td>Crypto<br> 2024</td>
+        <td> <b>Pairing-Free Blind Signatures from Standard Assumptions in the ROM.</b>
+            Julia Kastner, Ky Nguyen, Michael Reichle. 
+            <a href="https://eprint.iacr.org/2023/1810">pdf.</a>
+        </td>  
+    </tr>
+    <tr>
+        <td>PKC<br> 2024</td>
+        <td> 
+            <b>Breaking Parallel ROS: Implication for Isogeny and Lattice-based Blind Signatures.</b>
+            Shuichi Katsumata, Yi-Fu Lai, Michael Reichle.
+            <a href="https://eprint.iacr.org/2023/1603">pdf.</a>
+        </td>  
+    </tr>
+    <tr>
+        <td>AC<br> 2023</td>
+        <td> 
+            <b>Hermes: I/O-Efficient Forward-Secure Searchable Symmetric Encryption.</b>
+            Brice Minaud, Michael Reichle.
+            <a href="https://eprint.iacr.org/2023/166">pdf.</a>
+        </td>  
+    </tr>
+    <tr>
+        <td>AC<br> 2023</td>
+        <td> 
+            <b>Practical Round-Optimal Blind Signatures in the ROM from Standard Assumptions.</b>
+            Shuichi Katsumata, Michael Reichle, Yusuke Sakai.
+            <a href="https://eprint.iacr.org/2023/1447">pdf.</a>
+        </td>  
+    </tr>
+    <tr>
+        <td>CCS<br> 2022</td>
+        <td> 
+            <b>Sharp: Short Relaxed Range Proofs.</b>
+            Geoffroy Couteau, Dahmun Goudarzi, Michael Klooß, Michael Reichle. 
+            <a href="https://eprint.iacr.org/2022/1153">pdf.</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Crypto<br> 2022</td>
+        <td> 
+            <b>Dynamic Local Searchable Symmetric Encryption.</b>
+            Brice Minaud, Michael Reichle.
+            <em>  Paper invited to the Journal of Cryptology.</em> 
+            <a href="https://eprint.iacr.org/2022/1013">pdf.</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Crypto<br> 2021</td>
+        <td> 
+            <b>SSE and SSD: Page-Efficient Searchable Symmetric Encryption.</b>
+            Angèle Bossuat, Raphael Bost, Pierre-Alain Fouque, Brice Minaud, Michael Reichle. 
+            <a href="https://eprint.iacr.org/2021/716">pdf.</a>
+        </td>
+    </tr>
+    <tr>
+        <td>EC<br> 2021</td>
+        <td> 
+            <b>Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments. </b>
+            Geoffroy Couteau, Michael Klooß, Huang Lin, Michael Reichle. 
+            <a href="https://eprint.iacr.org/2021/540">pdf.</a>
+        </td>
+        
+    </tr>
+    <tr>
+        <td>PKC<br> 2019</td>
+        <td> 
+            <b>Non-interactive Keyed-Verification Anonymous Credentials. </b>
+            Geoffroy Couteau, Michael Reichle.
+            <a href="https://eprint.iacr.org/2019/117">pdf.</a> 
+        </td>
+    </tr>
+</table>
 </div>
+
 
 <div id="presentations" class="botspace">
-    <h2>presentations</h2>
-    <p>An incomplete list of some of the talks I held. </p>
-    <table>
-        <tr>
-            <td class="head">event</td>
-            <td class="head">subject</td>
-            <td class="head">links</td>
-        </tr>
-        <tr>
-            <td>CCS <br>11/2022</td>
-            <td>Sharp: Short Relaxed Range Proofs</td>
-            <td>n.a.</td>
-        </tr>
-        <tr>
-            <td>Crypto <br>08/2022</td>
-            <td>Dynamic Local Searchable Symmetric Encryption</td>
-            <td><a href="https://www.youtube.com/watch?v=RY5T2_00_cQ">video</a></td>  
-        </tr>
-        <tr>
-            <td>Brown ESL Seminar <br>01/2022</td>
-            <td>SSE and SSD: Page-Efficient Searchable Symmetric Encryption</td>
-            <td><a href="https://www.youtube.com/watch?v=W5rcTzSA5B4">video</a></td>
-        </tr>
-        <tr>
-            <td>Eurocrypt <br>10/2021</td>
-            <td>Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments</td>
-            <td><a href="https://www.youtube.com/watch?v=GZLZ_t5CuU4">video</a></td>
-        </tr>
-        <tr>
-            <td>Monash Cybersecurity Seminar <br>06/2021</td>
-            <td>Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments</td>
-            <td><a href="https://www.monash.edu/it/ssc/cybersecurity/seminars/2021/efficient-range-proofs-with-transparent-setup-from-bounded-integer-commitments">video</a></td>
-        </tr>
-        <tr>
-            <td>Crypto <br>10/2021</td>
-            <td>SSE and SSD: Page-Efficient Searchable Symmetric Encryption</td>
-            <td><a href="https://www.youtube.com/watch?v=ktl9kUyJa6E">video</a></td>
-        </tr>
-        <tr>
-            <td>PKC <br>04/2019</td>
-            <td>Non-interactive Keyed-Verification Anonymous Credentials</td>
-            <td> n.a. </td>
-        </tr>
-    </table>
+<h2>Presentations</h2>
+<p>An incomplete list of some of the talks I held. </p>
+<table>
+    <tr>
+        <td>CCS <br>11/2022</td>
+        <td>
+            Sharp: Short Relaxed Range Proofs.
+        </td>
+    </tr>
+    <tr>
+        <td>Crypto <br>08/2022</td>
+        <td>
+            Dynamic Local Searchable Symmetric Encryption. 
+            <a href="https://www.youtube.com/watch?v=RY5T2_00_cQ">video.</a>
+        </td>  
+    </tr>
+    <tr>
+        <td>Brown ESL Seminar <br>01/2022</td>
+        <td>
+            SSE and SSD: Page-Efficient Searchable Symmetric Encryption.
+            <a href="https://www.youtube.com/watch?v=W5rcTzSA5B4">video.</a>
+        </td>
+    </tr>
+    <tr>
+        <td>EC <br>10/2021</td>
+        <td>
+            Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments.
+            <a href="https://www.youtube.com/watch?v=GZLZ_t5CuU4">video.</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Monash Cybersecurity Seminar <br>06/2021</td>
+        <td>
+            Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments.
+            <a href="https://www.monash.edu/it/ssc/cybersecurity/seminars/2021/efficient-range-proofs-with-transparent-setup-from-bounded-integer-commitments">video.</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Crypto <br>10/2021</td>
+        <td>SSE and SSD: Page-Efficient Searchable Symmetric Encryption.
+            <a href="https://www.youtube.com/watch?v=ktl9kUyJa6E">video.</a>
+        </td>
+    </tr>
+    <tr>
+        <td>PKC <br>04/2019</td>
+        <td>
+            Non-interactive Keyed-Verification Anonymous Credentials.
+        </td>
+    </tr>
+</table>
 </div>
 
 <div id="teaching" class="botspace">
-    <h2>teaching</h2>
-    <p>An overview of teaching-related experience. </p>
-    <table>
-        <tr>
-            <td class="head">year</td>
-            <td class="head">course</td>
-            <td class="head">university</td>
-        </tr>
-        <tr>
-            <td>2023 - 2024 </td>
-            <td>Seminar: Current Topics in Cryptography</td>
-            <td>ETH Zürich</td>
-        </tr>
-        <tr>
-            <td>2023 - 2024 </td>
-            <td>Exercise: Information Security</td>
-            <td>ETH Zürich</td>
-        </tr>
-        <tr>
-            <td>2023</td>
-            <td>TD: Initiation à la Cryptologie</td>
-            <td>École Normale Supérieure</td>
-        </tr>
-        <tr>
-            <td>2021 - 2022</td>
-            <td>TP: Initiation à la Programmation 2</td>
-            <td>Université Paris</td>
-        </tr>
-        <tr>
-            <td>2021 - 2022</td>
-            <td>TP: Initiation à la Programmation 1</td>
-            <td>Université Paris</td>
-        </tr>
-        <tr>
-            <td>2020 - 2021</td>
-            <td>TD et TP: Initiation à la Programmation 2</td>
-            <td>Université Paris</td>
-        </tr>
-        <tr>
-            <td>2020 - 2021</td>
-            <td>TD: Concepts Informatique</td>
-            <td>Université Paris</td>
-        </tr>
-        <tr>
-            <td>2017 - 2018</td>
-            <td>Tutorium: Analysis 1</td>
-            <td>Karlsruhe Institute of Technology</td>
-        </tr>
-    </table>
+<h2>Teaching</h2>
+<p>An overview of teaching-related experience. </p>
+<table>
+    <tr>
+        <td>
+            2023 - 2024 </br>
+            ETH Zurich
+        </td>
+        <td>Seminar: Current Topics in Cryptography</td>
+    </tr>
+    <tr>
+        <td>
+            2023 - 2024 </br>
+            ETH Zürich
+        </td>
+        <td>Exercise: Information Security</td>
+    </tr>
+    <tr>
+        <td>
+            2023 </br>
+            École Normale Supérieure
+        </td>
+        <td>TD: Initiation à la Cryptologie</td>
+    </tr>
+    <tr>
+        <td>
+            2021 - 2022  </br>
+            Université Paris
+        <td>TP: Initiation à la Programmation 1</td>
+    </tr>
+    <tr>
+        <td>
+            2020 - 2022 </br>
+            Université Paris
+        <td>TD et TP: Initiation à la Programmation 2</td>
+    </tr>
+    <tr>
+        <td>
+            2020 - 2021 </br>
+            Université Paris
+        <td>TD: Concepts Informatique</td>
+    </tr>
+    <tr>
+        <td>
+            2017 - 2018 </br>
+            Karlsruhe Institute of Technology
+        <td>Tutorium: Analysis 1</td>
+    </tr>
+</table>
 </div>
 
 <div id="supervision" class="botspace">
-    <h2>supervision</h2>
+    <h2>Supervision</h2>
     <p>An overview of student projects I supervised. </p>
     <table>
         <tr>
-            <td class="head">year</td>
-            <td class="head">project</td>
-            <td class="head">student</td>
-        </tr>
-        <tr>
             <td>2023 - 2024 </td>
-            <td>Analyzing system-wide leakage of SSE schemes</td>
-            <td>Theresa Wakonig</td>
+            <td>Analyzing system-wide leakage of SSE schemes. <em>Theresa Wakonig</em>. Semester project.</td>
         </tr>
     </table>
 </div>
 
-<p class="end"> This website has been designed & coded by © <a href="mailto:doriane.giorda[at]protonmail[dot]com"> Doriane Giorda</a></p>
-</div>
-</div>
-</div>
-</div>
+</article>
+</main>
+
 
 </body>
 </html>
