@@ -8,19 +8,42 @@
 
     <link rel="stylesheet" href="https://unpkg.com/latex.css/style.min.css" />
     <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+    <style>
+    .circular-photo {
+      width: 200px;            /* Adjust size as needed */
+      height: 200px;
+      border-radius: 50%;      /* Makes it circular */
+      object-fit: cover;       /* Ensures it fills the circle */
+      border: 4px solid #fff;  /* Optional: white border */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: shadow */
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      font-family: sans-serif;
+    }
+  </style>
 </head>
 
 
 <body id="top">
 
 <header>
+    <div class="container">
+    <img src="photo.png" alt="photo" class="circular-photo">
+    <div>
     <h1><span class="latex">Michael Reichle</h1>
     <p class="author">
     Postdoc, ETH Zurich <br />
     michael.reichle@inf.ethz.ch <br />
     </p>
+    </div>
+    </div>
 </header>
-
 
 <div class="abstract">
 <h2>Abstract</h2>
@@ -32,7 +55,7 @@ I wrote my master and bachelor thesis under the supervision of <a href="https://
 
 The topic of my PhD was Searchable Encryption with a focus on memory-efficient constructions.
 My thesis can be found <a href="thesis.pdf">here</a>.
-I am interested in cryptography at large, particularly in efficient constructions of encryption or signature variants.
+My current research focuses on advanced forms of authentication (<i>e.g.</i>, blind signatures and threshold signatures). My other interests include variants of encryption and zero-knowledge.
 </p>
 
 <nav role="navigation" class="toc">
@@ -54,6 +77,34 @@ I am interested in cryptography at large, particularly in efficient construction
     An up-to-date list of my publications can be found on <a href="https://dblp.org/pid/235/4706.html">dblp</a>.
 </p>
 <table>
+    <tr>
+        <td>TCC<br> 2025</td>
+        <td> <b>Security Amplification of Threshold Signatures in the Standard Model.</b>
+            Karen Azari, Cecilia Boschini, Kristina Hostáková, Michael Reichle.
+            <!-- <a href="https://eprint.iacr.org/2024/2075">pdf.</a> -->
+        </td>
+    </tr>
+    <tr>
+        <td>AC<br> 2025</td>
+        <td> <b>Tightly-Secure Blind Signatures in Pairing-Free Groups.</b>
+            Nicholas Brandt, Dennis Hofheinz, Michael Klooß, Michael Reichle.
+            <a href="https://eprint.iacr.org/2024/2075">pdf.</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Crypto<br> 2025</td>
+        <td> <b>Unmasking TRaccoon: A Lattice-Based Threshold Signature with An Efficient Identifiable Abort Protocol.</b>
+            Rafael del Pino, Shuichi Katsumata, Guilhem Niot, Michael Reichle, Kaoru Takemure.
+            <a href="https://eprint.iacr.org/2025/849">pdf.</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Crypto<br> 2025</td>
+        <td> <b>Blind Signatures from Proofs of Inequality.</b>
+            Michael Klooß, Michael Reichle.
+            <a href="https://eprint.iacr.org/2024/2076">pdf.</a>
+        </td>
+    </tr>
     <tr>
         <td>AC<br> 2024</td>
         <td> <b>Practical Blind Signatures in Pairing-Free Groups.</b>
@@ -147,26 +198,45 @@ I am interested in cryptography at large, particularly in efficient construction
 
 <div id="presentations" class="botspace">
 <h2>Presentations</h2>
-<p>An incomplete list of some recorded talks. </p>
+<p>An incomplete list of some talks. </p>
 <table>
-    <!-- <tr>
-        <td>CCS <br>11/2022</td>
+    <tr>
+        <td>Crypto <br>08/2025</td>
         <td>
-            Sharp: Short Relaxed Range Proofs.
+            Blind Signatures from Proofs of Inequality.
+            <!-- <a href="https://youtu.be/AQTvtObFX9Q?feature=shared&t=2766">video.</a> -->
+             <a href="slides/2025_bs_neq.pdf">slides.</a>
         </td>
-    </tr> -->
+    </tr>
+    <tr>
+        <td>AC <br>12/2024</td>
+        <td>
+            Practical Blind Signatures in Pairing-Free Groups.
+            <a href="https://youtu.be/AQTvtObFX9Q?feature=shared&t=2766">video.</a>
+            <a href="slides/2024_bb_ibe.pdf">slides.</a>
+        </td>
+    </tr>
     <tr>
         <td>Crypto <br>08/2024</td>
         <td>
             Adaptively Secure 5 Round Threshold Signatures from MLWE/MSIS and DL with Rewinding.
             <a href="https://youtu.be/igsJjFVhiG4?feature=shared&t=2522">video.</a>
+            <a href="slides/2024_ts.pdf">slides.</a>
         </td>  
+    </tr>
+    <tr>
+        <td>CCS<br>11/2022</td>
+        <td>
+            Sharp: Short Relaxed Range Proofs.
+            <a href="slides/2022_sharp.pdf">slides.</a>
+        </td>
     </tr>
     <tr>
         <td>Crypto <br>08/2022</td>
         <td>
             Dynamic Local Searchable Symmetric Encryption. 
             <a href="https://www.youtube.com/watch?v=RY5T2_00_cQ">video.</a>
+            <a href="slides/2022_local_sse.pdf">slides.</a>
         </td>  
     </tr>
     <tr>
@@ -174,6 +244,7 @@ I am interested in cryptography at large, particularly in efficient construction
         <td>
             SSE and SSD: Page-Efficient Searchable Symmetric Encryption.
             <a href="https://www.youtube.com/watch?v=W5rcTzSA5B4">video.</a>
+            <a href="slides/2022_tethys_seminar.pdf">slides.</a>
         </td>
     </tr>
     <tr>
@@ -181,6 +252,7 @@ I am interested in cryptography at large, particularly in efficient construction
         <td>
             Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments.
             <a href="https://www.youtube.com/watch?v=GZLZ_t5CuU4">video.</a>
+            <a href="slides/2021_range_proofs.pdf">slides.</a>
         </td>
     </tr>
     <tr>
@@ -188,20 +260,23 @@ I am interested in cryptography at large, particularly in efficient construction
         <td>
             Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments.
             <a href="https://www.monash.edu/it/ssc/cybersecurity/seminars/2021/efficient-range-proofs-with-transparent-setup-from-bounded-integer-commitments">video.</a>
+            <a href="slides/2021_range_proofs_seminar.pdf">slides.</a>
         </td>
     </tr>
     <tr>
         <td>Crypto <br>10/2021</td>
         <td>SSE and SSD: Page-Efficient Searchable Symmetric Encryption.
             <a href="https://www.youtube.com/watch?v=ktl9kUyJa6E">video.</a>
+            <a href="slides/2021_sse_and_ssd.pdf">slides.</a>
         </td>
     </tr>
-    <!-- <tr>
+    <tr>
         <td>PKC <br>04/2019</td>
         <td>
             Non-interactive Keyed-Verification Anonymous Credentials.
+            <a href="slides/2019_kvac.pdf">slides.</a>
         </td>
-    </tr> -->
+    </tr>
 </table>
 </div>
 
@@ -209,19 +284,26 @@ I am interested in cryptography at large, particularly in efficient construction
 <h2>Teaching</h2>
 <p>An overview of teaching-related experience. </p>
 <table>
+     <tr>
+        <td>
+            2024, 2025 </br>
+            ETH Zürich
+        </td>
+        <td>Exercise: Information Security</td>
+    </tr>
     <tr>
         <td>
-            2023 - 2024 </br>
+            2024 </br>
             ETH Zurich
         </td>
         <td>Seminar: Current Topics in Cryptography</td>
     </tr>
     <tr>
         <td>
-            2023 - 2024 </br>
+            2024 </br>
             ETH Zürich
         </td>
-        <td>Exercise: Information Security</td>
+        <td>Discrete Mathematics</td>
     </tr>
     <tr>
         <td>
@@ -232,25 +314,25 @@ I am interested in cryptography at large, particularly in efficient construction
     </tr>
     <tr>
         <td>
-            2021 - 2022  </br>
+            2021  </br>
             Université Paris
         <td>TP: Initiation à la Programmation 1</td>
     </tr>
     <tr>
         <td>
-            2020 - 2022 </br>
+            2021,2022 </br>
             Université Paris
         <td>TD et TP: Initiation à la Programmation 2</td>
     </tr>
     <tr>
         <td>
-            2020 - 2021 </br>
+            2021 </br>
             Université Paris
         <td>TD: Concepts Informatique</td>
     </tr>
     <tr>
         <td>
-            2017 - 2018 </br>
+            2017 </br>
             Karlsruhe Institute of Technology
         <td>Tutorium: Analysis 1</td>
     </tr>
@@ -259,10 +341,16 @@ I am interested in cryptography at large, particularly in efficient construction
 
 <div id="supervision" class="botspace">
     <h2>Supervision</h2>
-    <p>An overview of student projects I supervised. </p>
+    <p>An overview of student projects. </p>
     <table>
         <tr>
-            <td>2023 - 2024 </td>
+            <td>October 2024</td>
+            <td>May 2025</td>
+            <td>Threshold Blind Signatures in Pairing-Free Groups from CDH in the ROM. <em>Zoé Reinke</em>. Master thesis.</td>
+        </tr>
+        <tr>
+            <td>November 2023</td>
+            <td>April 2024</td>
             <td>Analyzing system-wide leakage of SSE schemes. <em>Theresa Wakonig</em>. Semester project.</td>
         </tr>
     </table>
