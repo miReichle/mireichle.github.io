@@ -1,0 +1,645 @@
+{
+  "name": "Michael Reichle",
+  "role": "Tenure-track faculty",
+  "institution": "INSAIT",
+  "institutionUrl": "https://insait.ai/",
+  "field": "Cryptography",
+  "email": "michael.reichle@insait.ai",
+  "lastUpdated": "8 October 2026",
+  "tabs": {
+    "home": true,
+    "publications": true,
+    "presentations": true,
+    "teaching": true,
+    "group": true,
+    "resources": false,
+    "service": true
+  },
+  "intro": [
+    "I am tenure-track faculty at INSAIT, working in cryptography. Previously, I was a postdoc at ETH Zurich, working with Dennis Hofheinz, and a PhD student at École Normale Supérieure in Paris, supervised by Brice Minaud and Michel Abdalla. I wrote my master's and bachelor's theses under the supervision of Geoffroy Couteau.",
+    "My PhD focused on memory-efficient searchable encryption."
+  ],
+  "people": [
+    {
+      "name": "Dennis Hofheinz",
+      "url": "https://people.inf.ethz.ch/dhofheinz/"
+    },
+    {
+      "name": "Brice Minaud",
+      "url": "https://www.di.ens.fr/brice.minaud/"
+    },
+    {
+      "name": "Michel Abdalla",
+      "url": "https://www.di.ens.fr/~mabdalla/"
+    },
+    {
+      "name": "Geoffroy Couteau",
+      "url": "https://geoffroycouteau.github.io/"
+    }
+  ],
+  "thesisUrl": "thesis.pdf",
+  "dblpUrl": "https://dblp.org/pid/235/4706.html",
+  "news": [
+    {
+      "date": "October 2026",
+      "text": "Start of my tenure-track at INSAIT."
+    },
+    {
+      "date": "August 2026",
+      "text": "A paper on memory-efficient EMMs accepted at Asiacrypt'26 and a paper on multi-signatures accepted at TCC'26."
+    }
+  ],
+  "publications": [
+    {
+      "year": 2026,
+      "venue": "ASIACRYPT",
+      "title": "Page-efficient Encrypted Multi-Maps: New Techniques for Optimal Search Bandwidth",
+      "authors": "Francesca Falzon, Zichen Gui, Michael Reichle",
+      "url": "https://eprint.iacr.org/2025/1621",
+      "tags": [
+        "Encryption",
+        "Post-quantum cryptography"
+      ]
+    },
+    {
+      "year": 2026,
+      "venue": "TCC",
+      "title": "Hint-Free Multi-Signatures",
+      "authors": "Dennis Hofheinz, Michael Reichle, Benedikt Wagner",
+      "url": "https://eprint.iacr.org/2026/723",
+      "tags": [
+        "Signatures",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2026,
+      "venue": "CRYPTO",
+      "title": "Blind Signatures from Arguments of Inequality",
+      "authors": "Michael Klooß, Russell W. F. Lai, Michael Reichle",
+      "url": "https://eprint.iacr.org/2025/1886",
+      "tags": [
+        "Signatures",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2026,
+      "venue": "CRYPTO",
+      "title": "Playing Tag with Okamoto-Schnorr: Three-Move Pairing-Free Blind Signatures from DDH",
+      "authors": "Rutchathon Chairattana-Apirom, Michael Reichle, Stefano Tessaro",
+      "url": "https://eprint.iacr.org/2026/571",
+      "tags": [
+        "Signatures",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2026,
+      "venue": "EUROCRYPT",
+      "title": "Adaptively-secure Three-round Threshold Schnorr from DL",
+      "authors": "Guilhem Niot, Michael Reichle, Kaoru Takemure",
+      "url": "https://eprint.iacr.org/2025/1941",
+      "tags": [
+        "Signatures",
+        "Classical cryptography",
+        "Zero-knowledge"
+      ]
+    },
+    {
+      "year": 2026,
+      "venue": "IEEE S&P",
+      "title": "Lattice-based Threshold Blind Signatures",
+      "authors": "Sebastian Faller, Guilhem Niot, Michael Reichle",
+      "url": "https://eprint.iacr.org/2025/1566",
+      "tags": [
+        "Signatures",
+        "Post-quantum cryptography"
+      ]
+    },
+    {
+      "year": 2026,
+      "venue": "PKC",
+      "title": "Threshold Blind Signatures from CDH",
+      "authors": "Michael Reichle, Zoé Reinke",
+      "url": "https://eprint.iacr.org/2025/1798",
+      "tags": [
+        "Signatures",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2025,
+      "venue": "TCC",
+      "title": "Security Amplification of Threshold Signatures in the Standard Model",
+      "authors": "Karen Azari, Cecilia Boschini, Kristina Hostáková, Michael Reichle",
+      "url": "https://eprint.iacr.org/2025/1705",
+      "tags": [
+        "Signatures",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2025,
+      "venue": "ASIACRYPT",
+      "title": "Tightly-Secure Blind Signatures in Pairing-Free Groups",
+      "authors": "Nicholas Brandt, Dennis Hofheinz, Michael Klooß, Michael Reichle",
+      "url": "https://eprint.iacr.org/2024/2075",
+      "tags": [
+        "Signatures",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2025,
+      "venue": "CRYPTO",
+      "title": "Unmasking TRaccoon: A Lattice-Based Threshold Signature with An Efficient Identifiable Abort Protocol",
+      "authors": "Rafael del Pino, Shuichi Katsumata, Guilhem Niot, Michael Reichle, Kaoru Takemure",
+      "url": "https://eprint.iacr.org/2025/849",
+      "tags": [
+        "Signatures",
+        "Post-quantum cryptography",
+        "Zero-knowledge"
+      ]
+    },
+    {
+      "year": 2025,
+      "venue": "CRYPTO",
+      "title": "Blind Signatures from Proofs of Inequality",
+      "authors": "Michael Klooß, Michael Reichle",
+      "url": "https://eprint.iacr.org/2024/2076",
+      "tags": [
+        "Signatures",
+        "Zero-knowledge",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2024,
+      "venue": "ASIACRYPT",
+      "title": "Practical Blind Signatures in Pairing-Free Groups",
+      "authors": "Michael Klooß, Michael Reichle, Benedikt Wagner",
+      "url": "https://eprint.iacr.org/2024/1378",
+      "tags": [
+        "Signatures",
+        "Classical cryptography",
+        "Zero-knowledge"
+      ]
+    },
+    {
+      "year": 2024,
+      "venue": "CRYPTO",
+      "title": "Adaptively Secure 5 Round Threshold Signatures from MLWE/MSIS and DL with Rewinding",
+      "authors": "Shuichi Katsumata, Michael Reichle, Kaoru Takemure",
+      "url": "https://eprint.iacr.org/2024/1033",
+      "tags": [
+        "Signatures",
+        "Post-quantum cryptography"
+      ]
+    },
+    {
+      "year": 2024,
+      "venue": "CRYPTO",
+      "title": "Pairing-Free Blind Signatures from Standard Assumptions in the ROM",
+      "authors": "Julia Kastner, Ky Nguyen, Michael Reichle",
+      "url": "https://eprint.iacr.org/2023/1810",
+      "tags": [
+        "Signatures",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2024,
+      "venue": "PKC",
+      "title": "Breaking Parallel ROS: Implication for Isogeny and Lattice-based Blind Signatures",
+      "authors": "Shuichi Katsumata, Yi-Fu Lai, Michael Reichle",
+      "url": "https://eprint.iacr.org/2023/1603",
+      "tags": [
+        "Signatures",
+        "Post-quantum cryptography"
+      ]
+    },
+    {
+      "year": 2023,
+      "venue": "ASIACRYPT",
+      "title": "Hermes: I/O-Efficient Forward-Secure Searchable Symmetric Encryption",
+      "authors": "Brice Minaud, Michael Reichle",
+      "url": "https://eprint.iacr.org/2023/166",
+      "tags": [
+        "Encryption",
+        "Post-quantum cryptography"
+      ]
+    },
+    {
+      "year": 2023,
+      "venue": "ASIACRYPT",
+      "title": "Practical Round-Optimal Blind Signatures in the ROM from Standard Assumptions",
+      "authors": "Shuichi Katsumata, Michael Reichle, Yusuke Sakai",
+      "url": "https://eprint.iacr.org/2023/1447",
+      "tags": [
+        "Signatures",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2022,
+      "venue": "CCS",
+      "title": "Sharp: Short Relaxed Range Proofs",
+      "authors": "Geoffroy Couteau, Dahmun Goudarzi, Michael Klooß, Michael Reichle",
+      "url": "https://eprint.iacr.org/2022/1153",
+      "tags": [
+        "Zero-knowledge",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2022,
+      "venue": "CRYPTO",
+      "title": "Dynamic Local Searchable Symmetric Encryption",
+      "authors": "Brice Minaud, Michael Reichle",
+      "note": "Invited to the Journal of Cryptology",
+      "url": "https://eprint.iacr.org/2022/1013",
+      "tags": [
+        "Encryption",
+        "Post-quantum cryptography"
+      ]
+    },
+    {
+      "year": 2021,
+      "venue": "CRYPTO",
+      "title": "SSE and SSD: Page-Efficient Searchable Symmetric Encryption",
+      "authors": "Angèle Bossuat, Raphael Bost, Pierre-Alain Fouque, Brice Minaud, Michael Reichle",
+      "url": "https://eprint.iacr.org/2021/716",
+      "tags": [
+        "Encryption",
+        "Post-quantum cryptography"
+      ]
+    },
+    {
+      "year": 2021,
+      "venue": "EUROCRYPT",
+      "title": "Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments",
+      "authors": "Geoffroy Couteau, Michael Klooß, Huang Lin, Michael Reichle",
+      "url": "https://eprint.iacr.org/2021/540",
+      "tags": [
+        "Zero-knowledge",
+        "Classical cryptography",
+        "Post-quantum cryptography"
+      ]
+    },
+    {
+      "year": 2019,
+      "venue": "PKC",
+      "title": "Non-interactive Keyed-Verification Anonymous Credentials",
+      "authors": "Geoffroy Couteau, Michael Reichle",
+      "url": "https://eprint.iacr.org/2019/117",
+      "tags": [
+        "Zero-knowledge",
+        "Signatures",
+        "Classical cryptography"
+      ]
+    }
+  ],
+  "manuscripts": [
+    {
+      "year": 2026,
+      "venue": "Preprint",
+      "title": "Three-Move Blind Signatures from DL",
+      "authors": "Rutchathon Chairattana-Apirom, Michael Reichle, Stefano Tessaro",
+      "url": "https://eprint.iacr.org/2026/2309",
+      "tags": [
+        "Signatures",
+        "Classical cryptography"
+      ]
+    },
+    {
+      "year": 2023,
+      "venue": "PhD thesis",
+      "title": "Constructions of Advanced Cryptographic Primitives",
+      "authors": "Michael Reichle",
+      "url": "thesis.pdf",
+      "tags": [
+        "Signatures",
+        "Encryption"
+      ]
+    }
+  ],
+  "presentations": [
+    {
+      "date": "08/2026",
+      "venue": "CRYPTO",
+      "title": "Blind Signatures from Arguments of Inequality",
+      "slides": "slides/2026_crypto_arguments_inequality.pdf"
+    },
+    {
+      "date": "07/2026",
+      "venue": "TU Wien · Cybersecurity Center",
+      "title": "Pairing-free Blind Signatures in the ROM",
+      "slides": "slides/2026_tu_wien_blind_signatures.pdf"
+    },
+    {
+      "date": "05/2026",
+      "venue": "IEEE S&P",
+      "title": "Lattice-based Threshold Blind Signatures",
+      "slides": "slides/2026_sp_lattice_threshold_blind_signatures.pdf"
+    },
+    {
+      "date": "04/2026",
+      "venue": "Dagstuhl Seminar on Privacy-Preserving Authentication",
+      "title": "Pairing-free Blind Signatures in the ROM",
+      "slides": "slides/2026_dagstuhl_blind_signatures.pdf"
+    },
+    {
+      "date": "12/2025",
+      "venue": "ASIACRYPT",
+      "title": "Tightly-Secure Blind Signatures in Pairing-Free Groups",
+      "slides": "slides/2025_bs_tight.pdf"
+    },
+    {
+      "date": "08/2025",
+      "venue": "CRYPTO",
+      "title": "Blind Signatures from Proofs of Inequality",
+      "slides": "slides/2025_bs_neq.pdf"
+    },
+    {
+      "date": "12/2024",
+      "venue": "ASIACRYPT",
+      "title": "Practical Blind Signatures in Pairing-Free Groups",
+      "slides": "slides/2024_bb_ibe.pdf"
+    },
+    {
+      "date": "08/2024",
+      "venue": "CRYPTO",
+      "title": "Adaptively Secure 5 Round Threshold Signatures from MLWE/MSIS and DL with Rewinding",
+      "slides": "slides/2024_ts.pdf"
+    },
+    {
+      "date": "11/2022",
+      "venue": "CCS",
+      "title": "Sharp: Short Relaxed Range Proofs",
+      "slides": "slides/2022_sharp.pdf"
+    },
+    {
+      "date": "08/2022",
+      "venue": "CRYPTO",
+      "title": "Dynamic Local Searchable Symmetric Encryption",
+      "slides": "slides/2022_local_sse.pdf"
+    },
+    {
+      "date": "01/2022",
+      "venue": "Brown ESL Seminar",
+      "title": "SSE and SSD: Page-Efficient Searchable Symmetric Encryption",
+      "slides": "slides/2022_tethys_seminar.pdf"
+    },
+    {
+      "date": "10/2021",
+      "venue": "EUROCRYPT",
+      "title": "Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments",
+      "slides": "slides/2021_range_proofs.pdf"
+    },
+    {
+      "date": "06/2021",
+      "venue": "Monash Cybersecurity Seminar",
+      "title": "Efficient Range Proofs with Transparent Setup from Bounded Integer Commitments",
+      "slides": "slides/2021_range_proofs_seminar.pdf"
+    },
+    {
+      "date": "10/2021",
+      "venue": "CRYPTO",
+      "title": "SSE and SSD: Page-Efficient Searchable Symmetric Encryption",
+      "slides": "slides/2021_sse_and_ssd.pdf"
+    },
+    {
+      "date": "04/2019",
+      "venue": "PKC",
+      "title": "Non-interactive Keyed-Verification Anonymous Credentials",
+      "slides": "slides/2019_kvac.pdf"
+    }
+  ],
+  "teaching": [
+    {
+      "years": "2026",
+      "institution": "ETH Zurich",
+      "course": "Lecture: Formal Methods for Information Security"
+    },
+    {
+      "years": "2024, 2025",
+      "institution": "ETH Zurich",
+      "course": "Exercise: Information Security"
+    },
+    {
+      "years": "2024, 2025",
+      "institution": "ETH Zurich",
+      "course": "Exercise: Discrete Mathematics"
+    },
+    {
+      "years": "2024",
+      "institution": "ETH Zurich",
+      "course": "Seminar: Current Topics in Cryptography"
+    },
+    {
+      "years": "2023",
+      "institution": "École Normale Supérieure",
+      "course": "TD: Initiation à la Cryptologie"
+    },
+    {
+      "years": "2021",
+      "institution": "Université Paris",
+      "course": "TP: Initiation à la Programmation 1"
+    },
+    {
+      "years": "2021, 2022",
+      "institution": "Université Paris",
+      "course": "TD et TP: Initiation à la Programmation 2"
+    },
+    {
+      "years": "2021",
+      "institution": "Université Paris",
+      "course": "TD: Concepts Informatique"
+    },
+    {
+      "years": "2017",
+      "institution": "Karlsruhe Institute of Technology",
+      "course": "Tutorial: Analysis 1"
+    }
+  ],
+  "supervision": [
+    {
+      "period": "May 2026 – October 2026",
+      "student": "Adam Mernissi Arifi",
+      "project": "Identifiable Aborts for Threshold Signatures",
+      "type": "Master's thesis",
+      "institution": "ETH Zurich"
+    },
+    {
+      "period": "June 2025 – January 2026",
+      "student": "Yassmine Abdrabo",
+      "project": "Analyzing Adaptively-secure Searchable Encryption",
+      "type": "Master's thesis",
+      "institution": "ETH Zurich"
+    },
+    {
+      "period": "October 2024 – May 2025",
+      "student": "Zoé Reinke",
+      "project": "Threshold Blind Signatures in Pairing-Free Groups from CDH in the ROM",
+      "type": "Master's thesis",
+      "institution": "ETH Zurich"
+    },
+    {
+      "period": "November 2023 – April 2024",
+      "student": "Theresa Wakonig",
+      "project": "Analyzing system-wide leakage of SSE schemes",
+      "type": "Semester project",
+      "institution": "ETH Zurich"
+    }
+  ],
+  "homeIntro": [
+    "I am a tenure-track faculty member at INSAIT, where I am building a research program in cryptography. We study the mathematical foundations of secure protocols, with a focus on signatures, encryption, and privacy.",
+    "Before joining INSAIT, I was a postdoctoral researcher at ETH Zurich with Dennis Hofheinz. I earned my PhD at École Normale Supérieure in Paris under the supervision of Brice Minaud and Michel Abdalla, and wrote my master's and bachelor's theses under Geoffroy Couteau. My doctoral work explored memory-efficient searchable encryption."
+  ],
+  "groupGoals": [
+    {
+      "title": "Protocols for fundamental primitives",
+      "text": "We design and analyze protocols for digital signatures and encryption schemes with additional functionalities and security properties. Current interests include blind and threshold signatures, which protect privacy or distribute trust, and searchable encryption, which enables queries over encrypted data.",
+      "image": "images/fundamental-primitives.svg",
+      "imageAlt": "A document becomes a locked message, and another document receives a signature"
+    },
+    {
+      "title": "Zero-knowledge proofs",
+      "text": "Zero-knowledge proofs let a prover establish that a statement is true without revealing the private information behind it. We study efficient proof systems and ways to use them within larger cryptographic protocols, including signatures and privacy-preserving credentials.",
+      "image": "images/zero-knowledge-proofs.svg",
+      "imageAlt": "Three-message Sigma protocol interaction between prover and verifier"
+    },
+    {
+      "title": "Post-quantum cryptography",
+      "text": "We study primitives based on assumptions believed to remain secure against quantum computers. A central question is how to retain advanced features, such as blind and threshold signing, with competitive performance compared to classical methods.",
+      "image": "images/post-quantum-cryptography.svg",
+      "imageAlt": "A lattice with a long vector and a short vector"
+    }
+  ],
+  "recruitment": {
+    "title": "Prospective PhD students and postdocs",
+    "text": "Interested in cryptography and privacy-preserving protocols? I welcome inquiries from prospective PhD students and postdoctoral researchers whose interests connect to the group's research. A short note about your background and the problems you would like to work on is a good starting point.",
+    "phdUrl": "https://insait.ai/phd/",
+    "postdocUrl": "https://insait.ai/post-doc-at-insait/",
+    "visible": false
+  },
+  "highlights": [
+    {
+      "label": "01 / Privacy-preserving signatures",
+      "title": "Blind signatures from minimal assumptions",
+      "text": "Blind signatures let a user obtain a valid signature on a chosen message in a privacy-preserving manner. We develop new techniques for pairing-free blind signatures that minimize rounds and communication under minimal assumptions. Recent work with Chairattana-Apirom and Tessaro gives a three-move scheme based on the discrete logarithm assumption. It matches the three-move structure and underlying assumption of the seminal work by Pointcheval and Stern (JoC '00) while supporting unrestricted concurrent issuance, addressing a longstanding question in the area.",
+      "papers": [
+        "Three-Move Blind Signatures from DL"
+      ]
+    },
+    {
+      "label": "02 / Distributed trust",
+      "title": "Threshold signatures with stronger security properties",
+      "text": "Threshold signatures distribute control of a signing key among multiple parties, avoiding a single point of failure. We analyze such schemes in realistic security models, including adaptive security, where parties may be corrupted during protocol execution. Recent work with Katsumata and Takemure gives the first efficient post-quantum threshold-signature protocol with adaptive security. In particular, we show that the ubiquitous proof technique of rewinding is compatible with adaptive security, contrary to prior belief.",
+      "papers": [
+        "Adaptively Secure 5 Round Threshold Signatures from MLWE/MSIS and DL with Rewinding"
+      ]
+    },
+    {
+      "label": "03 / Encrypted data",
+      "title": "Memory-efficient encrypted search",
+      "text": "Encrypted multi-maps are a core building block for searchable encryption, allowing a client to retrieve values from outsourced encrypted data. Reducing random memory accesses improves performance on modern storage, but traditionally comes at the cost of increased query bandwidth. Recent work with Falzon and Gui gives the first schemes with optimal server storage to combine optimal search bandwidth with good page efficiency, reconciling bandwidth and memory efficiency in both static and dynamic settings.",
+      "papers": [
+        "Page-efficient Encrypted Multi-Maps: New Techniques for Optimal Search Bandwidth"
+      ]
+    }
+  ],
+  "programCommittees": [
+    {
+      "name": "EUROCRYPT",
+      "year": "2025"
+    },
+    {
+      "name": "EUROCRYPT",
+      "year": "2026"
+    },
+    {
+      "name": "CRYPTO",
+      "year": "2027"
+    }
+  ],
+  "teachingIntro": "An overview of courses I have taught and students I have supervised through master's and bachelor's theses and other research projects.",
+  "scholarUrl": "https://scholar.google.com/citations?user=X_yeXH8AAAAJ",
+  "subreviews": [
+    {
+      "name": "EUROCRYPT",
+      "years": "2021, 2024, 2025, 2027"
+    },
+    {
+      "name": "CRYPTO",
+      "years": "2021, 2023, 2024, 2025"
+    },
+    {
+      "name": "ASIACRYPT",
+      "years": "2024, 2025"
+    },
+    {
+      "name": "PKC",
+      "years": "2022, 2025"
+    },
+    {
+      "name": "ESORICS",
+      "years": "2023"
+    },
+    {
+      "name": "Des. Codes Cryptogr.",
+      "years": "2026"
+    }
+  ],
+  "serviceActivities": [
+    {
+      "title": "Eurocrypt 2024",
+      "text": "I was part of the local organizing committee for Eurocrypt 2024."
+    },
+    {
+      "title": "Informatiktage 2024",
+      "text": "I co-organized a workshop on cryptography for Informatiktage at ETH Zurich."
+    }
+  ],
+  "resourcesIntro": "Some references and pointers that I have found useful.",
+  "resources": [
+    {
+      "category": "Research and life",
+      "title": "Henry Corrigan-Gibbs: Miscellaneous",
+      "url": "https://people.eecs.berkeley.edu/~henrycg/pers/",
+      "description": "A collection of research and life advice, including guidance on technical writing and academic life."
+    },
+    {
+      "category": "Cryptography notes",
+      "title": "Geoffroy Couteau's Blog",
+      "url": "https://geoffroycouteau.github.io/blog/",
+      "description": "Notes and reference material, for instance on probability and secure multi-party computation."
+    },
+    {
+      "category": "Proof techniques",
+      "title": "How To Simulate It",
+      "url": "https://eprint.iacr.org/2016/046.pdf",
+      "description": "Yehuda Lindell's tutorial on constructing simulators and writing security proofs using the simulation paradigm."
+    },
+    {
+      "category": "Proof techniques",
+      "title": "Sequences of Games",
+      "url": "https://eprint.iacr.org/2004/332",
+      "description": "Victor Shoup's concise tutorial on structuring complex cryptographic security proofs as sequences of games."
+    },
+    {
+      "category": "PhD advise",
+      "title": "Mike Rosulek: So You're Starting a PhD?",
+      "url": "https://garbledcircus.com/advising/",
+      "description": "Advice for new PhD students."
+    },
+    {
+      "category": "Lattice cryptography",
+      "title": "A Decade of Lattice Cryptography",
+      "url": "https://eprint.iacr.org/2015/939.pdf",
+      "description": "Chris Peikert's survey of the foundations and major developments of lattice-based cryptography."
+    }
+  ],
+  "groupProgram": "The group's research program connects cryptographic theory with practical security needs. We aim to understand which security guarantees are possible under well-understood assumptions and construct efficient protocols with strong security guarantees."
+}

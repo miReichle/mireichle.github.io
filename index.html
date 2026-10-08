@@ -14,7 +14,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="header-inner">
-      <nav class="main-nav" aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="publications.html">Publications</a><a href="presentations.html">Presentations</a><a href="teaching.html">Teaching</a><a href="group.html">Group</a><a href="resources.html">Resources</a><a href="service.html">Service</a></nav>
+      <nav class="main-nav" aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="publications.html">Publications</a><a href="presentations.html">Presentations</a><a href="teaching.html">Teaching</a><a href="group.html">Group</a><a href="service.html">Service</a></nav>
     </div>
   </header>
   <main id="main">
@@ -38,18 +38,7 @@
         </div>
       </div>
     </div>
-    <section class="recruit-section container" aria-labelledby="recruit-title">
-      <div class="recruit-copy">
-        <p class="kicker kicker-light">Work with us</p>
-        <h2 id="recruit-title">Prospective PhD students and postdocs</h2>
-        <p>Interested in cryptography and privacy-preserving protocols? I welcome inquiries from prospective PhD students and postdoctoral researchers whose interests connect to the group&#x27;s research. A short note about your background and the problems you would like to work on is a good starting point.</p>
-      </div>
-      <div class="recruit-actions">
-        <a class="button button-white" href="https://insait.ai/phd/">PhD at INSAIT</a>
-        <a class="button button-white" href="https://insait.ai/post-doc-at-insait/">Postdoc at INSAIT</a>
-        <a class="button button-white" href="mailto:michael.reichle@insait.ai">Get in touch</a>
-      </div>
-    </section>
+    
     <section class="home-section news-section container" aria-labelledby="news-title">
       <div class="section-heading"><div><p class="kicker">Updates</p><h2 id="news-title">News</h2></div></div>
       <ul class="news-list"><li class="news-item"><span class="news-date">October 2026</span><span class="news-text">Start of my tenure-track at INSAIT.</span></li><li class="news-item"><span class="news-date">August 2026</span><span class="news-text">A paper on memory-efficient EMMs accepted at Asiacrypt&#x27;26 and a paper on multi-signatures accepted at TCC&#x27;26.</span></li></ul>
@@ -57,12 +46,12 @@
     <section class="home-section highlights-section container" aria-labelledby="highlights-title">
       <div class="section-heading"><div><p class="kicker">Selected work</p><h2 id="highlights-title">Research highlights</h2></div>
       <a class="section-action" href="publications.html">All publications</a></div>
-      <div class="highlight-grid"><article class="highlight"><p class="highlight-label">01 / Privacy-preserving signatures</p><h3>Blind signatures from minimal assumptions</h3><p>Blind signatures let a user obtain a valid signature on a chosen message in a privacy-preserving manner. We develop new techniques for pairing-free blind signatures that minimize rounds and communication under minimal assumptions. Recent work with Chairattana-Apirom and Tessaro gives a three-move scheme based on the discrete logarithm assumption. It matches the three-move structure and underlying assumption of the seminal work by Pointcheval and Stern (JoC &#x27;00) while supporting unrestricted concurrent issuance, addressing a longstanding question in the area.</p><div class="highlight-refs"><a class="paper-ref" href="https://eprint.iacr.org/2026/571">Playing Tag with Okamoto-Schnorr: Three-Move Pairing-Free Blind Signatures from DDH</a></div></article><article class="highlight"><p class="highlight-label">02 / Distributed trust</p><h3>Threshold signatures with stronger security properties</h3><p>Threshold signatures distribute control of a signing key among multiple parties, avoiding a single point of failure. We analyze such schemes in realistic security models, including adaptive security, where parties may be corrupted during protocol execution. Recent work with Katsumata and Takemure gives the first efficient post-quantum threshold-signature protocol with adaptive security. In particular, we show that the ubiquitous proof technique of rewinding is compatible with adaptive security, contrary to prior belief.</p><div class="highlight-refs"><a class="paper-ref" href="https://eprint.iacr.org/2024/1033">Adaptively Secure 5 Round Threshold Signatures from MLWE/MSIS and DL with Rewinding</a></div></article><article class="highlight"><p class="highlight-label">03 / Encrypted data</p><h3>Memory-efficient encrypted search</h3><p>Encrypted multi-maps are a core building block for searchable encryption, allowing a client to retrieve values from outsourced encrypted data. Reducing random memory accesses improves performance on modern storage, but traditionally comes at the cost of increased query bandwidth. Recent work with Falzon and Gui gives the first schemes with optimal server storage to combine optimal search bandwidth with good page efficiency, reconciling bandwidth and memory efficiency in both static and dynamic settings.</p><div class="highlight-refs"><a class="paper-ref" href="https://eprint.iacr.org/2025/1621">Page-efficient Encrypted Multi-Maps: New Techniques for Optimal Search Bandwidth</a></div></article></div>
+      <div class="highlight-grid"><article class="highlight"><p class="highlight-label">01 / Privacy-preserving signatures</p><h3>Blind signatures from minimal assumptions</h3><p>Blind signatures let a user obtain a valid signature on a chosen message in a privacy-preserving manner. We develop new techniques for pairing-free blind signatures that minimize rounds and communication under minimal assumptions. Recent work with Chairattana-Apirom and Tessaro gives a three-move scheme based on the discrete logarithm assumption. It matches the three-move structure and underlying assumption of the seminal work by Pointcheval and Stern (JoC &#x27;00) while supporting unrestricted concurrent issuance, addressing a longstanding question in the area.</p><div class="highlight-refs"><a class="paper-ref" href="https://eprint.iacr.org/2026/2309.pdf">Three-Move Blind Signatures from DL</a></div></article><article class="highlight"><p class="highlight-label">02 / Distributed trust</p><h3>Threshold signatures with stronger security properties</h3><p>Threshold signatures distribute control of a signing key among multiple parties, avoiding a single point of failure. We analyze such schemes in realistic security models, including adaptive security, where parties may be corrupted during protocol execution. Recent work with Katsumata and Takemure gives the first efficient post-quantum threshold-signature protocol with adaptive security. In particular, we show that the ubiquitous proof technique of rewinding is compatible with adaptive security, contrary to prior belief.</p><div class="highlight-refs"><a class="paper-ref" href="https://eprint.iacr.org/2024/1033">Adaptively Secure 5 Round Threshold Signatures from MLWE/MSIS and DL with Rewinding</a></div></article><article class="highlight"><p class="highlight-label">03 / Encrypted data</p><h3>Memory-efficient encrypted search</h3><p>Encrypted multi-maps are a core building block for searchable encryption, allowing a client to retrieve values from outsourced encrypted data. Reducing random memory accesses improves performance on modern storage, but traditionally comes at the cost of increased query bandwidth. Recent work with Falzon and Gui gives the first schemes with optimal server storage to combine optimal search bandwidth with good page efficiency, reconciling bandwidth and memory efficiency in both static and dynamic settings.</p><div class="highlight-refs"><a class="paper-ref" href="https://eprint.iacr.org/2025/1621">Page-efficient Encrypted Multi-Maps: New Techniques for Optimal Search Bandwidth</a></div></article></div>
     </section>
     </main>
   <footer class="site-footer">
     <div class="footer-inner">
-      <span>Michael Reichle · Cryptography at <a href="https://insait.ai/">INSAIT</a> <span class="last-updated">· Last updated 25 September 2026</span></span>
+      <span>Michael Reichle · Cryptography at <a href="https://insait.ai/">INSAIT</a> <span class="last-updated">· Last updated 8 October 2026</span></span>
       <div><a class="" href="https://scholar.google.com/citations?user=X_yeXH8AAAAJ">Google Scholar</a><a class="" href="https://dblp.org/pid/235/4706.html">dblp</a><a class="" href="mailto:michael.reichle@insait.ai">Email</a></div>
     </div>
     <p class="acknowledgement">Website generated with ChatGPT. Built with Python 3, HTML, CSS, and JavaScript.</p>
