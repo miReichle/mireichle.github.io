@@ -119,13 +119,13 @@ def render_home():
     if show_phd or show_postdoc:
         if show_phd and show_postdoc:
             recruitment_title = "Prospective PhD students and postdocs"
-            audience = "prospective PhD students and postdoctoral researchers"
+            audience = "PhD students and postdoctoral researchers"
         elif show_phd:
             recruitment_title = "Prospective PhD students"
-            audience = "prospective PhD students"
+            audience = "PhD students"
         else:
             recruitment_title = "Prospective postdocs"
-            audience = "prospective postdoctoral researchers"
+            audience = "postdoctoral researchers"
         recruitment_text = e(recruitment["text"].replace("{audience}", audience))
         recruitment_actions = []
         if show_phd:
