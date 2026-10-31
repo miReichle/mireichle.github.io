@@ -160,16 +160,16 @@ button { font: inherit; }
 }
 @media (max-width: 650px) {
   .container, .header-inner, .footer-inner { width: min(100% - 36px, 1100px); }
-  .hero-grid { grid-template-columns: 1fr; gap: 0; padding-block: 52px 50px; }
+  .hero-grid { grid-template-columns: 1fr; gap: 0; padding-block: 52px 50px; justify-items: center; text-align: center; }
   .hero-grid h1 { font-size: 62px; }
   .hero-identity { display: contents; }
   .hero-identity .kicker { order: 1; }
   .hero-identity h1 { order: 2; }
-  .hero-portrait { order: 3; width: min(55vw, 190px); margin-bottom: 24px; justify-self: start; }
+  .hero-portrait { order: 3; width: min(55vw, 190px); margin: 0 auto 24px; justify-self: center; }
   .hero-identity .role { order: 4; }
-  .hero-identity .profile-links { order: 5; }
-  .hero-summary { order: 6; grid-column: auto; margin-top: 35px; }
-  .hero-summary { padding-left: 19px; }
+  .hero-identity .profile-links { order: 5; justify-content: center; }
+  .hero-summary { order: 6; grid-column: auto; width: 100%; margin-top: 35px; padding: 24px 0 0; border-left: 0; border-top: 3px solid var(--red); text-align: center; }
+  .hero-links { justify-content: center; }
   .recruit-section { margin-top: 22px; padding: 26px 23px; }
   .recruit-actions { align-items: stretch; }
   .button { flex: 1 1 165px; }

@@ -518,11 +518,11 @@
     }
   ],
   "recruitment": {
-    "title": "Prospective PhD students and postdocs",
-    "text": "Interested in cryptography and privacy-preserving protocols? I welcome inquiries from prospective PhD students and postdoctoral researchers whose interests connect to the group's research. A short note about your background and the problems you would like to work on is a good starting point.",
+    "text": "I am looking for {audience} to join our group. If you are interested, feel free to reach out to me by email.",
     "phdUrl": "https://insait.ai/phd/",
     "postdocUrl": "https://insait.ai/post-doc-at-insait/",
-    "visible": false
+    "showPhd": false,
+    "showPostdoc": true
   },
   "highlights": [
     {

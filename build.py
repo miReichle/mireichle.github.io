@@ -114,18 +114,34 @@ def render_home():
             f'<div class="highlight-refs">{refs}</div></article>'
         )
     recruitment_block = ""
-    if recruitment.get("visible", True):
+    show_phd = recruitment.get("showPhd", False)
+    show_postdoc = recruitment.get("showPostdoc", False)
+    if show_phd or show_postdoc:
+        if show_phd and show_postdoc:
+            recruitment_title = "Prospective PhD students and postdocs"
+            audience = "prospective PhD students and postdoctoral researchers"
+        elif show_phd:
+            recruitment_title = "Prospective PhD students"
+            audience = "prospective PhD students"
+        else:
+            recruitment_title = "Prospective postdocs"
+            audience = "prospective postdoctoral researchers"
+        recruitment_text = e(recruitment["text"].replace("{audience}", audience))
+        recruitment_actions = []
+        if show_phd:
+            recruitment_actions.append(a("PhD at INSAIT", recruitment["phdUrl"], "button button-white"))
+        if show_postdoc:
+            recruitment_actions.append(a("Postdoc at INSAIT", recruitment["postdocUrl"], "button button-white"))
+        recruitment_actions.append(a("Get in touch", "mailto:" + DATA["email"], "button button-white"))
         recruitment_block = f"""
     <section class="recruit-section container" aria-labelledby="recruit-title">
       <div class="recruit-copy">
         <p class="kicker kicker-light">Work with us</p>
-        <h2 id="recruit-title">{e(recruitment["title"])}</h2>
-        <p>{e(recruitment["text"])}</p>
+        <h2 id="recruit-title">{e(recruitment_title)}</h2>
+        <p>{recruitment_text}</p>
       </div>
       <div class="recruit-actions">
-        {a("PhD at INSAIT", recruitment["phdUrl"], "button button-white")}
-        {a("Postdoc at INSAIT", recruitment["postdocUrl"], "button button-white")}
-        {a("Get in touch", "mailto:" + DATA["email"], "button button-white")}
+        {"".join(recruitment_actions)}
       </div>
     </section>
     """
